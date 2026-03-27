@@ -1,0 +1,9 @@
+### ignore all ###
+/*
+/.**
+
+### except following files ###
+!/.gitignore
+!/README.md
+!/util.py
+!/pipeline.sh
