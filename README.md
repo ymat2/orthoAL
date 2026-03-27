@@ -9,7 +9,7 @@ Pipeline to retrieve, align, and format ortholog sequences for personal use.
 - Python3 (>=3.12)
 - [NCBI datasets CLI](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/)
 - some alignment tool
-  - MAFFT
+  - MAFFT (currently using via apptainer)
 
 
 ## Usage
@@ -28,7 +28,7 @@ All outputs are generated in the working directory:
 sbatch pipeline.sh proj/config.json
 ```
 
-The contents of `config.json` should be:
+The contents of `config.json` should be like:
 
 ```json
 {
